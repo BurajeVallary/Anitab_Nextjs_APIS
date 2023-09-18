@@ -18,7 +18,7 @@ useEffect(() => {
   (async() => {
     const movies = await getMovies();
     setMovies(movies);
-    
+    https://github.com/BurajeVallary/Anitab_Nextjs_APIS
     // console.log({movies});
   })();
 }, []);
